@@ -15,4 +15,4 @@ You'll then receive an email indicating whether the notebook could be executed a
 
 This approach was inspired by an [investigation of data science reproducibility](https://markwoodbridge.com/2017/03/05/jupyter-reproducible-science.html) for Open Data Day 2017.
 
-This repository is a port of [jupyter-ci](https://gitlab.com/mwoodbri/jupyter-ci/) from GitLab CI to GitHub Actions.
+_This repository is a port of the [original jupyter-ci project](https://gitlab.com/mwoodbri/jupyter-ci/) from GitLab CI to GitHub Actions._
