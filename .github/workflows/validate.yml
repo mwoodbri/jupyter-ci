@@ -11,9 +11,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install -q --upgrade pip
-          python -m pip install -q numpy
+          python -m pip install -q numpy scipy matplotlib ipython jupyter pandas sympy nose
           python -m pip install -q -r requirements.txt
-          python -m pip install -q jupyter
       - name: Validate
         run: |
           jupyter nbconvert --execute *.ipynb
